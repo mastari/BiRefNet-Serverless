@@ -1,11 +1,11 @@
-FROM runpod/base:0.4.0-cuda11.8
+FROM runpod/pytorch:3.10-2.0.1-11.8.0
 
 WORKDIR /app
 
-# Copy everything
+# Copy code
 COPY . /app
 
-# Install deps
+# Install dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
