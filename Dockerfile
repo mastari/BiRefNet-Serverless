@@ -1,4 +1,4 @@
-FROM runpod/pytorch:3.10-2.0.1-11.8.0
+FROM runpod/pytorch:1.0.0-cu1281-torch280-ubuntu2204
 
 WORKDIR /app
 
